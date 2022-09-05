@@ -25,7 +25,7 @@ function Viewers() {
 
 export default Viewers;
 const Container = styled.div`
-  position: absolute;
+  position: relative;
   margin-top: 30px;
   display:grid;
   grid-template-columns:repeat(5, minmax(0, 1fr));
