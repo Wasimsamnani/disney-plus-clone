@@ -1,15 +1,4 @@
 *{
-<<<<<<< HEAD
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-  }
-
-  body{
-    color:white;
-    background-color: #040714;
-  }
-=======
   box-sizing: border-box;
 }
 
@@ -44,4 +33,3 @@ a{
     font-size: 14px;
   }
 }
->>>>>>> master
