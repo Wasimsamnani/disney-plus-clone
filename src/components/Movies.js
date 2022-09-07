@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Movies() {
   return (
     <Container>
-      <h4>Recommended for you</h4>
+      <h3>Recommended for you</h3>
       <Content>
         <Wrap>
           <img src="/images/logo.svg" />
@@ -28,13 +28,14 @@ const Container = styled.div`
   position: absolute;
 `;
 const Content = styled.div`
+  margin-top: 1rem;
   display: grid;
   grid-gap: 25px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 `;
 const Wrap = styled.div`
   border-radius: 10px;
-  cursor:pointer;
+  cursor: pointer;
   overflow: hidden;
   border: 3px solid rgba(249, 249, 249, 0.1);
   box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
