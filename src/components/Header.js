@@ -15,7 +15,6 @@ const Header=(props) => {
     useEffect(()=>{
         auth.onAuthStateChanged(async (user)=>{
             if(user){ // if user user logedin
-                console.log(user)
                 setUser(user) // put as the user
                 history.push('/home') // whever a user logs in will be directed to this page
             }
