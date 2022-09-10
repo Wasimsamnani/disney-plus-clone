@@ -6,13 +6,14 @@ import { GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAdU3AciSv59_w9iSfgK0W2S0uhUo-RL68",
-  authDomain: "disney-plus-clone-c00df.firebaseapp.com",
-  projectId: "disney-plus-clone-c00df",
-  storageBucket: "disney-plus-clone-c00df.appspot.com",
-  messagingSenderId: "261141755022",
-  appId: "1:261141755022:web:c539562f74bca4a243c5df",
-  measurementId: "G-CLRGWHR6BN",
+  apiKey : "AIzaSyCtDRk0gk1kjdq9MJ7LJk3iNfCJYOYKxBQ" , 
+  authDomain : "sincere-pixel-323907.firebaseapp.com" , 
+  databaseURL : "https://sincere-pixel-323907-default-rtdb.firebaseio.com" , 
+  projectId : "sincere-pixel-323907" , 
+  storageBucket : "sincere-pixel-323907.appspot.com" , 
+  messagingSenderId : "400032294371" , 
+  appId : "1:400032294371:web:efa3381c00c0a7c1512cd6" , 
+  measurementId : "G-39KV9WGMP8" 
 };
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore();
