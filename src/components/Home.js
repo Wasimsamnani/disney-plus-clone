@@ -26,7 +26,6 @@ const Home = () => {
       const colRef = collection(db, "movies");
       const querySnapshot = await getDocs(colRef);
       querySnapshot.forEach((doc) => {
-        console.log(doc.data())
         switch (doc.data().type) {
           case "recommend":
             recommends = [...recommends, { id: doc.id, ...doc.data() }];
